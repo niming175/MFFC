@@ -2,7 +2,7 @@
 use NoahBuscher\Macaw\Macaw;
 
 Macaw::get('','HomeController@home');
-
+Macaw::get('test','HomeController@test');
 Macaw::get('fuck',function(){
 	echo "hello word";
 });

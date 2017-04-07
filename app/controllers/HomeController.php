@@ -19,5 +19,8 @@ class HomeController extends BaseController
 		Redis::set('key','value',5,'h');
 		echo Redis::get('key');
 	}
+	public function test(){
+		echo "this is test page";
+	}
 }
 ?>
